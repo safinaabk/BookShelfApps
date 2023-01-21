@@ -1,0 +1,224 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main {
+  overflow: auto;
+}
+header {
+  display: inline;
+}
+.judul {
+  background-color: cornflowerblue;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+.judul > p {
+  margin-top: 15px;
+  display: inline-block;
+  font-weight: bold;
+}
+.judul > p > img {
+  margin-top: 0px;
+  margin-left: 10px;
+  width: 50px;
+}
+
+.judul nav {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 650px;
+}
+
+nav li {
+  padding: 10px;
+  display: inline;
+  list-style-type: none;
+}
+nav a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: palevioletred;
+}
+img {
+  width: 40%;
+  margin-top: 20px;
+  margin-left: 200px;
+}
+.input_section {
+  margin-top: 60px;
+  margin-right: 120px;
+  display: flex;
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: 9px 10px 23px -4px pink;
+  float: right;
+}
+.input_section > form {
+  float: right;
+}
+.input_section > form > h3,
+.book_shelf > h2 {
+  padding: 10px;
+  font-weight: 700;
+  color: cornflowerblue;
+}
+.input_section > form > .input {
+  margin: 8px 0;
+}
+
+.input_section > form > button {
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 8px;
+  cursor: pointer;
+}
+.input_section > form > button > span {
+  font-weight: bold;
+}
+
+.input_section > form > .input > input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border-color: cornflowerblue;
+}
+
+.input_section > form > .input > label {
+  font-weight: bold;
+}
+
+.input_section > form > .input_inline {
+  margin: 12px 0;
+  display: flex;
+  align-items: center;
+}
+
+.input_section > form > .input_inline > label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+.rakBookshelf {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  background-color: powderblue;
+}
+.rakBookshelf > img {
+  width: 40%;
+  margin-left: 50px;
+}
+.rakBookshelf > hr {
+  border-width: 10px;
+}
+.book_shelf {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 9px 10px 23px -4px;
+  align-items: center;
+  width: 30%;
+  background-color: white;
+}
+
+.book_shelf > .book_list {
+  padding: 16px;
+}
+
+.book_shelf > .book_list > .book_item {
+  padding: 8px 16px 16px 16px;
+  border: 2px solid cornflowerblue;
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+.book_shelf > .book_list > .book_item > h3,
+p {
+  margin: 8px 0;
+}
+
+.book_shelf > .book_list > .book_item > .action > button,
+.listBukuPencarian > .bukuPencarian > .book_item > .action > button {
+  border: 0;
+  padding: 5px;
+  margin: 0 5px 0 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.book_shelf > .book_list > .book_item > .action > .green,
+.listBukuPencarian > .bukuPencarian > .book_item > .action > .green {
+  background-color: darkgreen;
+  color: white;
+}
+
+.book_shelf > .book_list > .book_item > .action > .red,
+.listBukuPencarian > .bukuPencarian > .book_item > .action > .red {
+  background-color: darkred;
+  color: white;
+}
+
+.search_section {
+  margin: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  border-radius: 10px;
+  width: 70%;
+  background-color: powderblue;
+  box-shadow: 9px 10px 23px -4px;
+}
+
+.search_section > h2 {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.search_section > form {
+  padding: 16px;
+  width: 70%;
+  display: grid;
+  grid-template-columns: auto 1fr 0.5fr;
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.search_section > form > label {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.search_section > form > input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.search_section > form > button {
+  background-color: cornflowerblue;
+  color: white;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.listBukuPencarian > .bukuPencarian > .book_item {
+  padding: 8px 16px 16px 16px;
+  border: 2px solid;
+  border-radius: 5px;
+  margin: 10px 0;
+}
